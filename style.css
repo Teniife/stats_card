@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+}
+body{
+  background-color:hsl(233, 47%, 7%) ;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.card{
+  height: 446px;
+  width: 1110px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  margin-left: -555px;
+  margin-top: -223px;
+}
+.text{
+  background-color: hsl(244, 38%, 16%) ;
+  color: hsl(0, 0%, 100%) ;
+  width: 570px;
+  height: 446px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 70px;
+  float: left;
+  text-align: left;
+  border-radius: 10px 0 0 10px;
+}
+.image-holder{
+  border-radius: 0 10px 10px 0;
+  background-color: hsl(277, 64%, 61%);
+}
+img{
+  opacity: 0.5;
+  filter: brightness(150%);
+}
